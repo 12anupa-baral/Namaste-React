@@ -15,12 +15,6 @@ const parent = React.createElement(
     ]),
   ]
 );
-// const heading = React.createElement(
-//   "h1",
-//   { id: "heading" },
-//   "Hello World from React!"
-// );
 console.log(parent); // object
 const root = ReactDOM.createRoot(document.getElementById("root"));
-// root.render(heading); //convert heading object into h1 tag and put it in a DOM
 root.render(parent); //convert heading object into h1 tag and put it in a DOM
